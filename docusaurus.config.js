@@ -44,7 +44,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/zph/til/tree/main',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
@@ -99,6 +100,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // whether to index docs pages
+        indexDocs: true,
+        indexBlog: false,
+      },
+    ],
+  ],
 };
 
 module.exports = config;
