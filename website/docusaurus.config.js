@@ -12,10 +12,10 @@ const config = {
 
   // TODO: self host or put up on GH pages for simplicity
   // Set the production url of your site here
-  url: 'https://zph.github.io',
+  url: 'https://til.xargs.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/til',
+  baseUrl: '/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
