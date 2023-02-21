@@ -71,7 +71,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Entries',
+            label: 'Learnings',
           },
           {
             href: 'https://github.com/zph/til',
